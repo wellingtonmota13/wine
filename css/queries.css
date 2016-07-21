@@ -7,8 +7,8 @@
 	}
 	
 }
-/* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
+/* 480px and 320px */
+@media screen and (max-width:480px), @media screen and (max-width:320px) {
 	.wrapper { background: #f3f5f8; height: 640px; }
 	.iphone { display: none; }
 	.fluid-white { display: none; }
@@ -19,6 +19,17 @@
 		background: none;}
 	html {
 		background: none;
+	}
+
+	.ignite-cta {
+		background-color:#7c224a;
+
+	}
+	#hero, .hero {
+		padding:10px 0 20px 0px;
+	}
+	#hero .inner {
+		padding-top:60px;
 	}
 
 }
