@@ -192,7 +192,7 @@ h2::after { content: " "; border: solid 2px #801a4c; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 90px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -222,7 +222,7 @@ Hero
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 0px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
-.learn-more-btn { background: rgba(128, 26, 76, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #801a4c; -moz-box-shadow: 0px 3px 0px 0px #801a4c; box-shadow: 0px 3px 0px 0px #a02461; margin: 60px 0 0; font-weight: bold; }
+.learn-more-btn { background: rgba(128, 26, 76, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #801a4c; -moz-box-shadow: 0px 3px 0px 0px #801a4c; box-shadow: 0px 3px 0px 0px #a02461; margin: 20px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(128, 26, 76, 0.6); color: #fff; }
 /* ==========================================================================
 Intro
@@ -243,12 +243,15 @@ iPhone Section
 .fluid-white { width: 50%; background float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 ul ul, ol ul {
-    list-style-type: circled-ideograph;
+    list-style-type: disc;
 }
 
 #servicesSlider li {
 	font-size:1.1em;
 	text-align:left;
+}
+#servicesSlider h2 {
+	padding-top:20px;
 }
 
 
@@ -313,7 +316,15 @@ Contact
 .contact-details { margin: 70px 0; }
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #801a4c; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
-.contact-wrap { position: relative; }
+.contact-wrap { 
+	position: relative;
+	background:url('../img/bg-2.jpg') no-repeat center center;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+
+	 }
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -330,7 +341,11 @@ ul.legals li:last-child::after { content: ""; }
 FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 10px; }
-ul.slides li { margin-bottom: 20px; }
+ul.slides li { 
+	margin-bottom: 20px; 
+	color:#7c224a;
+	font-weight: bold; 
+}
 /* ==========================================================================
 Waypoints
 ========================================================================== */

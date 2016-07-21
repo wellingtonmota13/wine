@@ -31,6 +31,10 @@
 	#hero .inner {
 		padding-top:60px;
 	}
+	.contact-wrap {
+		background-image: none;
+
+	}
 
 }
 /* xGA iPad */
@@ -47,8 +51,19 @@
 @media screen and (min-width:480px) and (max-width:991px) {
 	.iphone { display: none; }
 	.fluid-white { display: none; }
-	.wrapper { background: #f3f5f8; height: 540px; }
+	.wrapper { 
+		background: rgba(255, 255, 255, 0.9);
+		height: 540px; 
+	}
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
+	#hero p, .hero p, .hero h2 {
+		background: rgba(255, 255, 255, 0.9);
+		padding:20px;
+	}
+
+
+	
+
 }
