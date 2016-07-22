@@ -21,7 +21,7 @@
 	.ignite-cta {background-color:#7c224a; margin-top:90px;}
 	#hero, .hero {padding:10px 0 20px 0px; background-color:#7c224a;}
 	#hero .inner {padding-top:60px;}
-	.contact-wrap {background-image: none;}
+	
 	.learn-more-btn { 
 		background: none; 
 		padding: 20px 30px;
@@ -40,6 +40,10 @@
     	margin-bottom:90px;
 	}
 	
+	
+		
+	
+	
 }
 /* 480px and 320px */
 @media screen and (max-width:480px){
@@ -57,12 +61,15 @@
 	#logo-wine{display:none;}
 	#hero, .hero {padding:10px 0 20px 0px;}
 	#hero .inner {padding-top:35px;}
-	.contact-wrap {background-image: none;}
-	#hero {padding-top:0px;}
-	#hero p {color:#fd71af;}
-	#hero h2 {color:white;}
+	.contact-wrap {background: url('../img/bg-buttle.jpg') no-repeat top left;}
+	.up-btn {display:none;}
+	#contact p{padding-top:20px; text-align:left;}
+	#hero {padding-top:10px;}
+	#hero p {color:#fd71af; line-height:1.2em;}
+	#hero h2 {color:white; font-size:1.2em; line-height:1.4em;  text-transform:none;}
 	.ignite-cta {background-color:#7c224a; margin-top:90px;}
-	#hero, .hero {padding:10px 0 20px 0px; background-color:#7c224a;}
+	#hero, .hero {padding:10px 0 20px 0px; background:url('../img/home-bg-small.jpg') no-repeat; background-color:#7c224a;}
+	#hero-text {padding-top:200px;}
 	.iphone-smartphone {display:block; margin:auto; width:100%;}
 	.learn-more-btn { 
 		background: none; 
