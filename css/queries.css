@@ -1,39 +1,85 @@
 /* 320px (iPhone) */
 @media screen and (max-width:320px) {
-	body {
-		background: none;}
-	html {
-		background: none;
-	}
-	
-}
-/* 480px and 320px */
-@media screen and (max-width:480px), @media screen and (max-width:320px) {
-	.wrapper { background: #f3f5f8; height: 640px; }
+	body {background: none;}
+	html {background: none;}
+	html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+	.iphone { display: none; }
+	.wrapper { background: #fff; height: 1250px; }
 	.iphone { display: none; }
 	.fluid-white { display: none; }
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
-	body {
-		background: none;}
-	html {
-		background: none;
+	#hero {padding-top:0px;}
+	#hero p {color:#fd71af; padding-bottom: 0px;}
+	#hero h2 {color:white; padding-bottom:0px;}
+	a {color: inherit;}
+	#logo-izie-white {display:block;}
+	#logo-izie{display:none;}
+	#logo-wine-white {display:block;}
+	#logo-wine{display:none;}
+	.ignite-cta {background-color:#7c224a; margin-top:90px;}
+	#hero, .hero {padding:10px 0 20px 0px; background-color:#7c224a;}
+	#hero .inner {padding-top:60px;}
+	.contact-wrap {background-image: none;}
+	.learn-more-btn { 
+		background: none; 
+		padding: 20px 30px;
+		color: #fff; 
+		text-transform: uppercase; 
+		letter-spacing: 1px; 
+		display: inline-block; 
+		-webkit-box-shadow: none; 
+		-moz-box-shadow: none; 
+		box-shadow: none; 
+		margin: 1px 0 0 0; 
+		font-weight: bold; 
+		border-color:#fff;
+		border-style: solid;
+    	border-width: 1px;
+    	margin-bottom:90px;
 	}
-
-	.ignite-cta {
-		background-color:#7c224a;
-
-	}
-	#hero, .hero {
-		padding:10px 0 20px 0px;
-	}
-	#hero .inner {
-		padding-top:60px;
-	}
-	.contact-wrap {
-		background-image: none;
-
+	
+}
+/* 480px and 320px */
+@media screen and (max-width:480px){
+	.wrapper { background: #fff; height: 1250px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+	body {background: none;}
+	html {background: none;}
+	#logo-izie-white {display:block;}
+	#logo-izie{display:none;}
+	#logo-wine-white {display:block;}
+	#logo-wine{display:none;}
+	#hero, .hero {padding:10px 0 20px 0px;}
+	#hero .inner {padding-top:35px;}
+	.contact-wrap {background-image: none;}
+	#hero {padding-top:0px;}
+	#hero p {color:#fd71af;}
+	#hero h2 {color:white;}
+	.ignite-cta {background-color:#7c224a; margin-top:90px;}
+	#hero, .hero {padding:10px 0 20px 0px; background-color:#7c224a;}
+	.iphone-smartphone {display:block; margin:auto; width:100%;}
+	.learn-more-btn { 
+		background: none; 
+		padding: 20px 30px;
+		color: #fff; 
+		text-transform: uppercase; 
+		letter-spacing: 1px; 
+		display: inline-block; 
+		-webkit-box-shadow: none; 
+		-moz-box-shadow: none; 
+		box-shadow: none; 
+		margin: 1px 0 0 0; 
+		font-weight: bold; 
+		border-color:#fff;
+		border-style: solid;
+    	border-width: 1px;
+    	margin-bottom:90px;
 	}
 
 }
@@ -63,7 +109,5 @@
 		padding:20px;
 	}
 
-
-	
 
 }

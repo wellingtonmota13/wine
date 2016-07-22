@@ -43,7 +43,7 @@ Links
  
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
-a:active, a:hover { outline: 0; background-color:white; }
+a:active, a:hover { outline: 0; background-color:none; }
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -222,6 +222,8 @@ Hero
 .hero p { letter-spacing: 1px; padding-top:10px;}
 .learn-more-btn { background: rgba(128, 26, 76, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #801a4c; -moz-box-shadow: 0px 3px 0px 0px #801a4c; box-shadow: 0px 3px 0px 0px #a02461; margin: 20px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(128, 26, 76, 0.6); color: #fff; }
+#logo-izie-white {display:none;}
+#logo-wine-white {display:none;}
 /* ==========================================================================
 Intro
 ========================================================================== */
@@ -243,6 +245,8 @@ iPhone Section
 ul ul, ol ul {
     list-style-type: disc;
 }
+
+.iphone-smartphone {display:none;}
 
 #servicesSlider li {
 	font-size:1.1em;
